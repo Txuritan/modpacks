@@ -1,0 +1,48 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Lorem ipsum",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 0,
+            "yPos": 0,
+            "width": 50.0,
+            "height": 50.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
+            "recipeType": "ShapedOreRecipe",
+            "item": "minecraft:piston",
+            "xPos": 0,
+            "yPos": 0,
+            "width": 128.0,
+            "height": 64.0
+          }
+        }
+      ],
+      "pageName": "qqqq"
+    }
+  ],
+  "uniqueName": "Maerie",
+  "color": 16777215,
+  "showBackground": false,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Maerie",
+  "displayInCreative": true
+}

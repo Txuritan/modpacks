@@ -1,0 +1,1457 @@
+# Configuration file
+
+appliedenergistics2 {
+
+    item_toolnetworktool {
+        I:wrench=0
+    }
+
+}
+
+
+awwayoftime {
+
+    boundaxe {
+        I:axe=0
+    }
+
+    boundshovel {
+        I:shovel=0
+    }
+
+    boundpickaxe {
+        I:pickaxe=0
+    }
+
+}
+
+
+betterarmor2 {
+
+    "glass shovel" {
+        I:shovel=5
+    }
+
+    "emerald axe" {
+        I:axe=5
+    }
+
+    "obsidian shovel" {
+        I:shovel=5
+    }
+
+    "emerald pickaxe" {
+        I:pickaxe=5
+    }
+
+    "obsidian axe" {
+        I:axe=5
+    }
+
+    "glass pickaxe" {
+        I:pickaxe=5
+    }
+
+    "obsidian pickaxe" {
+        I:pickaxe=5
+    }
+
+    "emerald shovel" {
+        I:shovel=5
+    }
+
+    "glass axe" {
+        I:axe=5
+    }
+
+}
+
+
+divinerpg {
+
+    edenshovel {
+        I:shovel=102
+    }
+
+    corruptedshovel {
+        I:shovel=5
+    }
+
+    rupeeshovel {
+        I:shovel=8
+    }
+
+    bedrockshovel {
+        I:shovel=5
+    }
+
+    skythernaxe {
+        I:axe=102
+    }
+
+    realmitepickaxe {
+        I:pickaxe=5
+    }
+
+    rupeeaxe {
+        I:axe=8
+    }
+
+    arlemiteaxe {
+        I:axe=5
+    }
+
+    realmiteaxe {
+        I:axe=5
+    }
+
+    apalachiapickaxe {
+        I:pickaxe=102
+    }
+
+    corruptedpickaxe {
+        I:pickaxe=5
+    }
+
+    rupeepickaxe {
+        I:pickaxe=8
+    }
+
+    divineaxe {
+        I:axe=10
+    }
+
+    arlemiteshovel {
+        I:shovel=5
+    }
+
+    divineshovel {
+        I:shovel=10
+    }
+
+    mortumshovel {
+        I:shovel=102
+    }
+
+    apalachiashovel {
+        I:shovel=102
+    }
+
+    edenpickaxe {
+        I:pickaxe=102
+    }
+
+    divinepickaxe {
+        I:pickaxe=10
+    }
+
+    wildwoodaxe {
+        I:axe=102
+    }
+
+    skythernpickaxe {
+        I:pickaxe=102
+    }
+
+    skythernshovel {
+        I:shovel=102
+    }
+
+    apalachiaaxe {
+        I:axe=102
+    }
+
+    bedrockpickaxe {
+        I:pickaxe=5
+    }
+
+    wildwoodshovel {
+        I:shovel=102
+    }
+
+    mortumpickaxe {
+        I:pickaxe=102
+    }
+
+    wildwoodpickaxe {
+        I:pickaxe=102
+    }
+
+    bedrockaxe {
+        I:axe=5
+    }
+
+    edenaxe {
+        I:axe=102
+    }
+
+    realmiteshovel {
+        I:shovel=5
+    }
+
+    arlemitepickaxe {
+        I:pickaxe=5
+    }
+
+    corruptedaxe {
+        I:axe=5
+    }
+
+    mortumaxe {
+        I:axe=102
+    }
+
+}
+
+
+draconicevolution {
+
+    draconicpickaxe {
+        I:pickaxe=12
+    }
+
+    draconicshovel {
+        I:shovel=12
+    }
+
+    wyvernpickaxe {
+        I:pickaxe=12
+    }
+
+    draconicaxe {
+        I:axe=12
+    }
+
+    draconicdistructionstaff {
+        I:axe=12
+        I:pickaxe=12
+        I:shovel=12
+    }
+
+    wyvernshovel {
+        I:shovel=12
+    }
+
+}
+
+
+enderio {
+
+    item_darksteel_axe {
+        I:axe=7
+    }
+
+    item_darksteel_pickaxe {
+        I:pickaxe=7
+    }
+
+}
+
+
+extrautilities {
+
+    destructionpickaxe {
+        I:pickaxe=5
+    }
+
+    defoliageaxe {
+        I:axe=5
+    }
+
+    erosionshovel {
+        I:shovel=5
+    }
+
+}
+
+
+hardcoreenderexpansion {
+
+    schorching_pickaxe {
+        I:pickaxe=100
+    }
+
+}
+
+
+jotatospracticalities {
+
+    netherstarpick {
+        I:pickaxe=102
+    }
+
+}
+
+
+magicalcropsarmour {
+
+    imperioshovel {
+        I:shovel=6
+    }
+
+    acciopickaxe {
+        I:pickaxe=5
+    }
+
+    crucioaxe {
+        I:axe=5
+    }
+
+    cruciopickaxe {
+        I:pickaxe=5
+    }
+
+    crucioshovel {
+        I:shovel=5
+    }
+
+    zivicioshovel {
+        I:shovel=6
+    }
+
+    imperioaxe {
+        I:axe=6
+    }
+
+    accioaxe {
+        I:axe=5
+    }
+
+    imperiopickaxe {
+        I:pickaxe=6
+    }
+
+    ziviciopickaxe {
+        I:pickaxe=6
+    }
+
+    accioshovel {
+        I:shovel=5
+    }
+
+    zivicioaxe {
+        I:axe=6
+    }
+
+}
+
+
+metallurgy {
+
+    kalendrite_hoe {
+        I:hoe=6
+    }
+
+    vulcanite_hoe {
+        I:hoe=7
+    }
+
+    vyroxeres_shovel {
+        I:shovel=5
+    }
+
+    electrum_shovel {
+        I:shovel=0
+    }
+
+    brass_hoe {
+        I:hoe=0
+    }
+
+    bronze_hoe {
+        I:hoe=3
+    }
+
+    quicksilver_pickaxe {
+        I:pickaxe=6
+    }
+
+    vyroxeres_hoe {
+        I:hoe=5
+    }
+
+    midasium_hoe {
+        I:hoe=5
+    }
+
+    atlarus_shovel {
+        I:shovel=8
+    }
+
+    mithril_shovel {
+        I:shovel=6
+    }
+
+    electrum_hoe {
+        I:hoe=0
+    }
+
+    damascus_steel_axe {
+        I:axe=5
+    }
+
+    oureclase_shovel {
+        I:shovel=5
+    }
+
+    silver_shovel {
+        I:shovel=0
+    }
+
+    inolashite_axe {
+        I:axe=6
+    }
+
+    platinum_shovel {
+        I:shovel=3
+    }
+
+    sanguinite_pickaxe {
+        I:pickaxe=8
+    }
+
+    orichalcum_shovel {
+        I:shovel=7
+    }
+
+    ceruclase_axe {
+        I:axe=5
+    }
+
+    carmot_hoe {
+        I:hoe=6
+    }
+
+    black_steel_axe {
+        I:axe=3
+    }
+
+    black_steel_shovel {
+        I:shovel=3
+    }
+
+    celenegil_hoe {
+        I:hoe=7
+    }
+
+    desichalkos_axe {
+        I:axe=6
+    }
+
+    shadow_iron_shovel {
+        I:shovel=0
+    }
+
+    steel_axe {
+        I:axe=5
+    }
+
+    steel_pickaxe {
+        I:pickaxe=5
+    }
+
+    amordrine_pickaxe {
+        I:pickaxe=6
+    }
+
+    orichalcum_hoe {
+        I:hoe=7
+    }
+
+    ignatius_pickaxe {
+        I:pickaxe=0
+    }
+
+    atlarus_hoe {
+        I:hoe=8
+    }
+
+    bronze_shovel {
+        I:shovel=3
+    }
+
+    brass_pickaxe {
+        I:pickaxe=0
+    }
+
+    astral_silver_axe {
+        I:axe=5
+    }
+
+    midasium_shovel {
+        I:shovel=5
+    }
+
+    adamantine_axe {
+        I:axe=8
+    }
+
+    tartarite_axe {
+        I:axe=9
+    }
+
+    astral_silver_shovel {
+        I:shovel=5
+    }
+
+    damascus_steel_shovel {
+        I:shovel=5
+    }
+
+    mithril_axe {
+        I:axe=6
+    }
+
+    damascus_steel_hoe {
+        I:hoe=5
+    }
+
+    haderoth_shovel {
+        I:shovel=6
+    }
+
+    copper_hoe {
+        I:hoe=0
+    }
+
+    ignatius_shovel {
+        I:shovel=0
+    }
+
+    kalendrite_shovel {
+        I:shovel=6
+    }
+
+    black_steel_hoe {
+        I:hoe=3
+    }
+
+    adamantine_pickaxe {
+        I:pickaxe=8
+    }
+
+    copper_shovel {
+        I:shovel=0
+    }
+
+    prometheum_pickaxe {
+        I:pickaxe=0
+    }
+
+    desichalkos_hoe {
+        I:hoe=6
+    }
+
+    steel_hoe {
+        I:hoe=5
+    }
+
+    kalendrite_pickaxe {
+        I:pickaxe=6
+    }
+
+    shadow_steel_shovel {
+        I:shovel=3
+    }
+
+    celenegil_shovel {
+        I:shovel=7
+    }
+
+    inolashite_shovel {
+        I:shovel=6
+    }
+
+    hepatizon_axe {
+        I:axe=3
+    }
+
+    copper_pickaxe {
+        I:pickaxe=0
+    }
+
+    astral_silver_hoe {
+        I:hoe=5
+    }
+
+    shadow_steel_pickaxe {
+        I:pickaxe=3
+    }
+
+    atlarus_pickaxe {
+        I:pickaxe=8
+    }
+
+    adamantine_hoe {
+        I:hoe=8
+    }
+
+    tartarite_hoe {
+        I:hoe=9
+    }
+
+    haderoth_axe {
+        I:axe=6
+    }
+
+    oureclase_pickaxe {
+        I:pickaxe=5
+    }
+
+    sanguinite_axe {
+        I:axe=8
+    }
+
+    platinum_pickaxe {
+        I:pickaxe=3
+    }
+
+    deep_iron_axe {
+        I:axe=3
+    }
+
+    eximite_shovel {
+        I:shovel=5
+    }
+
+    bronze_pickaxe {
+        I:pickaxe=3
+    }
+
+    eximite_axe {
+        I:axe=5
+    }
+
+    shadow_iron_axe {
+        I:axe=0
+    }
+
+    vyroxeres_pickaxe {
+        I:pickaxe=5
+    }
+
+    kalendrite_axe {
+        I:axe=6
+    }
+
+    ceruclase_shovel {
+        I:shovel=5
+    }
+
+    orichalcum_pickaxe {
+        I:pickaxe=7
+    }
+
+    oureclase_axe {
+        I:axe=5
+    }
+
+    vulcanite_axe {
+        I:axe=7
+    }
+
+    astral_silver_pickaxe {
+        I:pickaxe=5
+    }
+
+    inolashite_pickaxe {
+        I:pickaxe=6
+    }
+
+    prometheum_shovel {
+        I:shovel=0
+    }
+
+    shadow_steel_axe {
+        I:axe=3
+    }
+
+    celenegil_pickaxe {
+        I:pickaxe=7
+    }
+
+    steel_shovel {
+        I:shovel=5
+    }
+
+    vyroxeres_axe {
+        I:axe=5
+    }
+
+    damascus_steel_pickaxe {
+        I:pickaxe=5
+    }
+
+    haderoth_hoe {
+        I:hoe=6
+    }
+
+    amordrine_shovel {
+        I:shovel=6
+    }
+
+    sanguinite_hoe {
+        I:hoe=8
+    }
+
+    carmot_pickaxe {
+        I:pickaxe=6
+    }
+
+    brass_shovel {
+        I:shovel=0
+    }
+
+    inolashite_hoe {
+        I:hoe=6
+    }
+
+    hepatizon_shovel {
+        I:shovel=3
+    }
+
+    sanguinite_shovel {
+        I:shovel=8
+    }
+
+    ceruclase_hoe {
+        I:hoe=5
+    }
+
+    angmallen_axe {
+        I:axe=3
+    }
+
+    prometheum_axe {
+        I:axe=0
+    }
+
+    silver_axe {
+        I:axe=0
+    }
+
+    carmot_axe {
+        I:axe=6
+    }
+
+    ceruclase_pickaxe {
+        I:pickaxe=5
+    }
+
+    quicksilver_shovel {
+        I:shovel=6
+    }
+
+    shadow_iron_hoe {
+        I:hoe=0
+    }
+
+    desichalkos_shovel {
+        I:shovel=6
+    }
+
+    eximite_pickaxe {
+        I:pickaxe=5
+    }
+
+    ignatius_axe {
+        I:axe=0
+    }
+
+    oureclase_hoe {
+        I:hoe=5
+    }
+
+    orichalcum_axe {
+        I:axe=7
+    }
+
+    shadow_steel_hoe {
+        I:hoe=3
+    }
+
+    deep_iron_pickaxe {
+        I:pickaxe=3
+    }
+
+    shadow_iron_pickaxe {
+        I:pickaxe=0
+    }
+
+    atlarus_axe {
+        I:axe=8
+    }
+
+    black_steel_pickaxe {
+        I:pickaxe=3
+    }
+
+    silver_pickaxe {
+        I:pickaxe=0
+    }
+
+    mithril_hoe {
+        I:hoe=6
+    }
+
+    hepatizon_pickaxe {
+        I:pickaxe=3
+    }
+
+    platinum_axe {
+        I:axe=3
+    }
+
+    vulcanite_pickaxe {
+        I:pickaxe=7
+    }
+
+    tartarite_pickaxe {
+        I:pickaxe=9
+    }
+
+    vulcanite_shovel {
+        I:shovel=7
+    }
+
+    deep_iron_shovel {
+        I:shovel=3
+    }
+
+    angmallen_hoe {
+        I:hoe=3
+    }
+
+    copper_axe {
+        I:axe=0
+    }
+
+    prometheum_hoe {
+        I:hoe=0
+    }
+
+    quicksilver_axe {
+        I:axe=6
+    }
+
+    silver_hoe {
+        I:hoe=0
+    }
+
+    amordrine_axe {
+        I:axe=6
+    }
+
+    tartarite_shovel {
+        I:shovel=9
+    }
+
+    ignatius_hoe {
+        I:hoe=0
+    }
+
+    adamantine_shovel {
+        I:shovel=8
+    }
+
+    carmot_shovel {
+        I:shovel=6
+    }
+
+    brass_axe {
+        I:axe=0
+    }
+
+    haderoth_pickaxe {
+        I:pickaxe=6
+    }
+
+    bronze_axe {
+        I:axe=3
+    }
+
+    hepatizon_hoe {
+        I:hoe=3
+    }
+
+    desichalkos_pickaxe {
+        I:pickaxe=6
+    }
+
+    angmallen_pickaxe {
+        I:pickaxe=3
+    }
+
+    angmallen_shovel {
+        I:shovel=3
+    }
+
+    midasium_axe {
+        I:axe=5
+    }
+
+    electrum_axe {
+        I:axe=0
+    }
+
+    platinum_hoe {
+        I:hoe=3
+    }
+
+    deep_iron_hoe {
+        I:hoe=3
+    }
+
+    eximite_hoe {
+        I:hoe=5
+    }
+
+    electrum_pickaxe {
+        I:pickaxe=0
+    }
+
+    quicksilver_hoe {
+        I:hoe=6
+    }
+
+    mithril_pickaxe {
+        I:pickaxe=6
+    }
+
+    amordrine_hoe {
+        I:hoe=6
+    }
+
+    midasium_pickaxe {
+        I:pickaxe=5
+    }
+
+    celenegil_axe {
+        I:axe=7
+    }
+
+}
+
+
+minechem {
+
+    minechempolytool {
+        I:pickaxe=3
+    }
+
+}
+
+
+minecraft {
+
+    wooden_shovel {
+        I:shovel=0
+    }
+
+    wooden_axe {
+        I:axe=0
+    }
+
+    golden_axe {
+        I:axe=0
+    }
+
+    wooden_pickaxe {
+        I:pickaxe=0
+    }
+
+    diamond_shovel {
+        I:shovel=5
+    }
+
+    diamond_pickaxe {
+        I:pickaxe=5
+    }
+
+    stone_axe {
+        I:axe=0
+    }
+
+    golden_pickaxe {
+        I:pickaxe=0
+    }
+
+    iron_pickaxe {
+        I:pickaxe=3
+    }
+
+    stone_shovel {
+        I:shovel=0
+    }
+
+    iron_shovel {
+        I:shovel=3
+    }
+
+    iron_axe {
+        I:axe=3
+    }
+
+    golden_shovel {
+        I:shovel=0
+    }
+
+    stone_pickaxe {
+        I:pickaxe=0
+    }
+
+    diamond_axe {
+        I:axe=5
+    }
+
+}
+
+
+minefactoryreloaded {
+
+    hammer {
+        I:wrench=0
+    }
+
+}
+
+
+nolpfij_wildycraft {
+
+    "dragon hatchet" {
+        I:axe=8
+    }
+
+    "rune hatchet" {
+        I:axe=6
+    }
+
+    "rune shovel" {
+        I:shovel=6
+    }
+
+    "mithril shovel" {
+        I:shovel=3
+    }
+
+    "dragon shovel" {
+        I:shovel=8
+    }
+
+    "mithril pickaxe" {
+        I:pickaxe=3
+    }
+
+    "adamant hatchet" {
+        I:axe=5
+    }
+
+    "dragon pickaxe" {
+        I:pickaxe=8
+    }
+
+    "adamant shovel" {
+        I:shovel=5
+    }
+
+    "mithril hatchet" {
+        I:axe=3
+    }
+
+    "rune pickaxe" {
+        I:pickaxe=6
+    }
+
+    "adamant pickaxe" {
+        I:pickaxe=5
+    }
+
+}
+
+
+redstonearsenal {
+
+    tool_axeflux {
+        I:axe=6
+    }
+
+    tool_pickaxeflux {
+        I:pickaxe=6
+    }
+
+    tool_shovelflux {
+        I:shovel=6
+    }
+
+}
+
+
+runicdungeons {
+
+    item_runicsteelaxe {
+        I:axe=5
+    }
+
+    item_runicsteelpickaxe {
+        I:pickaxe=5
+    }
+
+    item_runicsteelshovel {
+        I:shovel=5
+    }
+
+}
+
+
+sanguimancy {
+
+    corruptedaxe {
+        I:axe=2147483647
+    }
+
+    corruptedpickaxe {
+        I:pickaxe=2147483647
+    }
+
+    corruptedshovel {
+        I:shovel=2147483647
+    }
+
+}
+
+
+steamcraft {
+
+    pickgildedgold {
+        I:pickaxe=2
+    }
+
+    axebrass {
+        I:axe=2
+    }
+
+    steamshovel {
+        I:shovel=3
+    }
+
+    axegildedgold {
+        I:axe=2
+    }
+
+    steamaxe {
+        I:axe=3
+    }
+
+    shovelgildedgold {
+        I:shovel=2
+    }
+
+    shovelbrass {
+        I:shovel=2
+    }
+
+    pickbrass {
+        I:pickaxe=2
+    }
+
+    steamdrill {
+        I:pickaxe=3
+    }
+
+}
+
+
+swampmobs {
+
+    goldenvenomaxeblade {
+        I:axe=5
+    }
+
+    verdantvenomaxeblade {
+        I:axe=5
+    }
+
+    venomaxeblade {
+        I:axe=5
+    }
+
+}
+
+
+tconstruct {
+
+    shovel {
+        I:shovel=-1
+    }
+
+    battleaxe {
+        I:axe=-1
+    }
+
+    hammer {
+        I:pickaxe=-1
+    }
+
+    pickaxe {
+        I:pickaxe=-1
+    }
+
+    lumberaxe {
+        I:axe=-1
+    }
+
+    hatchet {
+        I:axe=-1
+    }
+
+    excavator {
+        I:shovel=-1
+    }
+
+    mattock {
+        I:axe=-1
+    }
+
+}
+
+
+thermalfoundation {
+
+    tool_sicklecopper {
+        I:sickle=0
+    }
+
+    tool_shovelnickel {
+        I:shovel=3
+    }
+
+    tool_shovellead {
+        I:shovel=0
+    }
+
+    tool_shovelinvar {
+        I:shovel=3
+    }
+
+    tool_axesilver {
+        I:axe=3
+    }
+
+    tool_pickaxeplatinum {
+        I:pickaxe=6
+    }
+
+    tool_axenickel {
+        I:axe=3
+    }
+
+    tool_shovelbronze {
+        I:shovel=3
+    }
+
+    tool_axelead {
+        I:axe=0
+    }
+
+    tool_sickleinvar {
+        I:sickle=3
+    }
+
+    tool_shovelelectrum {
+        I:shovel=0
+    }
+
+    tool_axeelectrum {
+        I:axe=0
+    }
+
+    tool_pickaxeinvar {
+        I:pickaxe=3
+    }
+
+    tool_sickleelectrum {
+        I:sickle=0
+    }
+
+    tool_axecopper {
+        I:axe=0
+    }
+
+    tool_sicklebronze {
+        I:sickle=3
+    }
+
+    tool_shoveltin {
+        I:shovel=0
+    }
+
+    tool_pickaxecopper {
+        I:pickaxe=0
+    }
+
+    tool_pickaxelead {
+        I:pickaxe=0
+    }
+
+    tool_sickletin {
+        I:sickle=0
+    }
+
+    tool_axeinvar {
+        I:axe=3
+    }
+
+    tool_pickaxesilver {
+        I:pickaxe=3
+    }
+
+    tool_axetin {
+        I:axe=0
+    }
+
+    tool_pickaxenickel {
+        I:pickaxe=3
+    }
+
+    tool_shovelsilver {
+        I:shovel=3
+    }
+
+    tool_pickaxetin {
+        I:pickaxe=0
+    }
+
+    tool_pickaxeelectrum {
+        I:pickaxe=0
+    }
+
+    tool_axebronze {
+        I:axe=3
+    }
+
+    tool_shovelplatinum {
+        I:shovel=6
+    }
+
+    tool_sicklesilver {
+        I:sickle=3
+    }
+
+    tool_axeplatinum {
+        I:axe=6
+    }
+
+    tool_sickleplatinum {
+        I:sickle=6
+    }
+
+    tool_sicklelead {
+        I:sickle=0
+    }
+
+    tool_pickaxebronze {
+        I:pickaxe=3
+    }
+
+    tool_shovelcopper {
+        I:shovel=0
+    }
+
+    tool_sicklenickel {
+        I:sickle=3
+    }
+
+}
+
+
+tragicmc {
+
+    scythe {
+        I:scythe=5
+    }
+
+    reaperscythe {
+        I:scythe=5
+    }
+
+    tungstenjack {
+        I:pickaxe=5
+    }
+
+    witheringaxe {
+        I:axe=5
+    }
+
+    jack {
+        I:pickaxe=5
+    }
+
+    celestialjack {
+        I:pickaxe=5
+    }
+
+}
+
+
+twilightforest {
+
+    item_fierypick {
+        I:pickaxe=6
+    }
+
+    item_ironwoodshovel {
+        I:shovel=3
+    }
+
+    item_knightlypick {
+        I:pickaxe=5
+    }
+
+    item_steeleafpick {
+        I:pickaxe=5
+    }
+
+    item_steeleafshovel {
+        I:shovel=5
+    }
+
+    item_mazebreakerpick {
+        I:pickaxe=5
+    }
+
+    item_giantpick {
+        I:pickaxe=0
+    }
+
+    item_ironwoodpick {
+        I:pickaxe=3
+    }
+
+    item_ironwoodaxe {
+        I:axe=3
+    }
+
+    item_minotauraxe {
+        I:axe=5
+    }
+
+    item_steeleafaxe {
+        I:axe=5
+    }
+
+    item_knightlyaxe {
+        I:axe=5
+    }
+
+}
+
+
+witchery {
+
+    kobolditepickaxe {
+        I:pickaxe=5
+    }
+
+}
+
+

@@ -1,0 +1,224 @@
+//values
+//val "X" = <item index>;
+//val  = <>;
+
+val altar = <AWWayofTime:Altar>;
+val plank = <minecraft:planks:*>;
+val stone = <minecraft:stone>;
+val diamond = <minecraft:diamond>;
+val wood = <minecraft:log:*>;
+val stick = <minecraft:stick>;
+val pattern = <TConstruct:blankPattern>;
+val ctable = <minecraft:crafting_table>;
+val TCtable = <TConstruct:CraftingStation>;
+val ts1 = <TConstruct:ToolStationBlock:1>;
+val ts0 = <TConstruct:ToolStationBlock>;
+val ts10 = <TConstruct:ToolStationBlock:10>;
+val Uingot = <ExtraUtilities:unstableingot>;
+val cobble3 = <ExtraUtilities:cobblestone_compressed:3>;
+val Pstone = <ProjectE:item.pe_philosophers_stone>;
+val shear = <minecraft:shears>;
+val pearl = <minecraft:ender_pearl>;
+val Gblock = <minecraft:gold_block>;
+val ingot = <minecraft:iron_ingot>;
+val Iblock = <minecraft:iron_block>;
+val Cblock = <TConstruct:MetalBlock>;
+val Bblock = <ExtraUtilities:block_bedrockium>;
+val efuel = <magicalcrops:essence_storage:5>;
+val dblock = <ProjectE:matter_block>;
+val rblock = <ProjectE:matter_block:1>;
+
+
+//removed
+//recipes.remove(item);
+//recipes.remove();
+
+recipes.remove(<minecraft:planks>);
+recipes.remove(<minecraft:crafting_table>);
+recipes.remove(stick);
+recipes.remove(ts1);
+recipes.remove(ts0);
+recipes.remove(ts10);
+recipes.remove(pattern);
+recipes.remove(TCtable);
+recipes.remove(<minecraft:golden_apple:1>);
+recipes.remove(<magicalcrops:InfusionStoneWeak>);
+furnace.remove(<minecraft:coal:1>);
+recipes.remove(<AWWayofTime:Altar>);
+recipes.remove(<AWWayofTime:sacrificialKnife>);
+recipes.removeShaped(<ProjectE:item.pe_matter>);
+recipes.removeShaped(<ProjectE:item.pe_matter:1>);
+recipes.removeShaped(<minecraft:chainmail_helmet>);
+recipes.removeShaped(<minecraft:chainmail_chestplate>);
+recipes.removeShaped(<minecraft:chainmail_leggings>);
+recipes.removeShaped(<minecraft:chainmail_boots>);
+recipes.removeShaped(<minecraft:golden_helmet>);
+recipes.removeShaped(<minecraft:golden_chestplate>);
+recipes.removeShaped(<minecraft:golden_leggings>);
+recipes.removeShaped(<minecraft:golden_boots>);
+recipes.removeShaped(<minecraft:iron_helmet>);
+recipes.removeShaped(<minecraft:iron_chestplate>);
+recipes.removeShaped(<minecraft:iron_leggings>);
+recipes.removeShaped(<minecraft:iron_boots>);
+recipes.removeShaped(<minecraft:diamond_helmet>);
+recipes.removeShaped(<minecraft:diamond_chestplate>);
+recipes.removeShaped(<minecraft:diamond_leggings>);
+recipes.removeShaped(<minecraft:diamond_boots>);
+recipes.removeShaped(<divinerpg:bedrockHelmet>);
+recipes.removeShaped(<divinerpg:bedrockChestplate>);
+recipes.removeShaped(<divinerpg:bedrockLeggings>);
+recipes.removeShaped(<divinerpg:bedrockBoots>);
+recipes.removeShaped(<ProjectE:item.pe_dm_armor_0>);
+recipes.removeShaped(<ProjectE:item.pe_dm_armor_1>);
+recipes.removeShaped(<ProjectE:item.pe_dm_armor_2>);
+recipes.removeShaped(<ProjectE:item.pe_dm_armor_3>);
+recipes.removeShaped(<ProjectE:item.pe_rm_armor_0>);
+recipes.removeShaped(<ProjectE:item.pe_rm_armor_1>);
+recipes.removeShaped(<ProjectE:item.pe_rm_armor_2>);
+recipes.removeShaped(<ProjectE:item.pe_rm_armor_3>);
+recipes.remove(<TConstruct:materials:16>);
+recipes.remove(<Sanguimancy:resource:1>);
+recipes.remove(<magicalcrops:InfusionStoneWeak>);
+recipes.remove(<magicalcrops:InfusionStoneRegular>);
+recipes.remove(<magicalcrops:InfusionStoneStrong>);
+recipes.remove(<magicalcrops:InfusionStoneExtreme>);
+recipes.remove(<magicalcrops:InfusionStoneMaster>);
+recipes.remove(<JABBA:moverDiamond>);
+recipes.remove(<custom_sword:iron_showgun>);
+recipes.remove(<custom_sword:gold_showgun>);
+recipes.remove(<custom_sword:diamond_showgun>);
+recipes.remove(<custom_sword:iron_showgun_kabuto>);
+recipes.remove(<custom_sword:gold_showgun_kabuto>);
+recipes.remove(<custom_sword:diamond_showgun_kabuto>);
+recipes.remove(<JotatosPracticalities:blockMover>);
+recipes.remove(<Steamcraft:helmGildedGold>);
+recipes.remove(<Steamcraft:chestGildedGold>);
+recipes.remove(<Steamcraft:legsGildedGold>);
+recipes.remove(<Steamcraft:feetGildedGold>);
+//recipes.remove();
+//recipes.remove();
+//recipes.remove();
+//recipes.remove();
+//recipes.remove();
+//recipes.remove();
+//recipes.remove();
+//recipes.remove();
+
+
+
+//shapeless
+//recipes.addShapeless(output,[ingredients]);
+//recipes.addShapeless(,[]);
+
+recipes.addShapeless(<minecraft:string>*3,[<minecraft:wool>,shear.anyDamage().transformDamage(4)]);
+recipes.addShapeless(<minecraft:planks>*2,[<minecraft:log>]);
+recipes.addShapeless(<ExtraUtilities:cursedearthside>,[<minecraft:dirt>,<magicalcrops:TaintedEssence>]);
+recipes.addShapeless(<morehealth:heartContainer>,[<heart:healthHeart>]);
+recipes.addShapeless(<heart:healthHeart>,[<morehealth:heartContainer>]);
+recipes.addShapeless(<morehealth:heartContainer>*9,[<DraconicEvolution:dragonHeart>]);
+
+
+//shaped
+//recipes.addShaped(output,[[ingredients,ingredients,ingredients],[ingredients,ingredients,ingredients],[ingredients,ingredients,ingredients]]);
+//recipes.addShaped(,[[,,],[,,],[,,]]);
+
+recipes.addShaped(<AWWayofTime:blankSlate>*6,[[<minecraft:stone>,null,<minecraft:stone>],[<minecraft:stone>,<AWWayofTime:weakBloodOrb>,<minecraft:stone>],[<minecraft:stone>,null,<minecraft:stone>]]);
+recipes.addShaped(<minecraft:crafting_table>,[[wood,wood,null],[wood,wood,null],[null,null,null]]);
+recipes.addShaped(pattern,[[wood,stick,null],[stick,wood,null],[null,null,null]]);
+recipes.addShaped(TCtable,[[plank,plank,null],[plank,plank,null],[null,null,null]]);
+recipes.addShaped(ts1,[[wood,pattern,wood],[wood,null,wood],[null,null,null]]);
+recipes.addShaped(ts0,[[null,pattern,null],[null,ctable,null],[null,null,null]]);
+recipes.addShaped(ts10,[[plank,pattern,plank],[plank,null,plank],[null,null,null]]);
+recipes.addShaped(altar,[[Uingot,null,Uingot],[cobble3,Pstone,cobble3],[<divinerpg:netheriteIngot>,cobble3,<divinerpg:netheriteIngot>]]);
+recipes.addShaped(<pandorasbox:pandorasBox>,[[plank,Gblock,plank],[<minecraft:emerald>,pearl,<minecraft:emerald>],[plank,<minecraft:redstone>,plank]]);
+recipes.addShaped(<weaponcaseloot:item.weaponcase>,[[null,plank,<minecraft:iron_ingot>],[plank,<pandorasbox:pandorasBox>,plank],[stick,plank,null]]);
+recipes.addShaped(<Baubles:Ring>,[[null,<minecraft:iron_block>,null],[<minecraft:iron_block>,<ProjectE:item.pe_ring_iron_band>,<minecraft:iron_block>],[null,<minecraft:iron_block>,null]]);
+recipes.addShaped(<minecraft:end_portal_frame>,[[pearl,null,pearl],[<Metallurgy:deep.iron.ingot>,<minecraft:obsidian>,<Metallurgy:deep.iron.ingot>],[<minecraft:end_stone>,<minecraft:end_stone>,<minecraft:end_stone>]]);
+recipes.addShaped(stick,[[wood,null,null],[wood,null,null],[null,null,null]]);
+recipes.addShaped(<AWWayofTime:sacrificialKnife>,[[null,Uingot,null],[Uingot,Pstone,Uingot],[null,Uingot,null]]);
+recipes.addShaped(<morehealth:heartPiece>,[[<TConstruct:materials:19>,pearl,<TConstruct:materials:19>],[<TConstruct:materials:19>,<Metallurgy:fantasy.dust:13>,<TConstruct:materials:19>],[null,<TConstruct:materials:19>,null]]);
+recipes.addShaped(<DraconicEvolution:dragonHeart>,[[<morehealth:heartContainer>,<morehealth:heartContainer>,<morehealth:heartContainer>],[<morehealth:heartContainer>,<morehealth:heartContainer>,<morehealth:heartContainer>],[<morehealth:heartContainer>,<morehealth:heartContainer>,<morehealth:heartContainer>]]);
+
+recipes.addShaped(<Sanguimancy:resource:1>,[[null,<minecraft:skull:1>,null],[<minecraft:skull:1>,<AWWayofTime:magicianBloodOrb>,<minecraft:skull:1>],[null,<minecraft:skull:1>,null]]);
+
+recipes.addShaped(<magicalcrops:TaintedEssence>,[[null,<magicalcrops:5ZivicioEssence>,null],[<magicalcrops:5ZivicioEssence>,<Sanguimancy:resource:1>,<magicalcrops:5ZivicioEssence>],[null,<magicalcrops:5ZivicioEssence>,null]]);
+
+
+
+//weak infusion stone
+recipes.addShaped(<magicalcrops:InfusionStoneWeak>,[[<magicalcrops:essence_storage:0>,<magicalcrops:essence_storage:0>,<magicalcrops:essence_storage:0>],[<magicalcrops:essence_storage:0>,<minecraft:coal>,<magicalcrops:essence_storage:0>],[<magicalcrops:essence_storage:0>,<magicalcrops:essence_storage:0>,<magicalcrops:essence_storage:0>]]);
+
+//regular infusion stone
+recipes.addShaped(<magicalcrops:InfusionStoneRegular>,[[<magicalcrops:essence_storage:1>,<magicalcrops:essence_storage:1>,<magicalcrops:essence_storage:1>],[<magicalcrops:essence_storage:1>,ingot,<magicalcrops:essence_storage:1>],[<magicalcrops:essence_storage:1>,<magicalcrops:essence_storage:1>,<magicalcrops:essence_storage:1>]]);
+
+//strong infusion stone
+recipes.addShaped(<magicalcrops:InfusionStoneStrong>,[[<magicalcrops:essence_storage:2>,<magicalcrops:essence_storage:2>,<magicalcrops:essence_storage:2>],[<magicalcrops:essence_storage:2>,pearl,<magicalcrops:essence_storage:2>],[<magicalcrops:essence_storage:2>,<magicalcrops:essence_storage:2>,<magicalcrops:essence_storage:2>]]);
+
+//extreme infusion stone
+recipes.addShaped(<magicalcrops:InfusionStoneExtreme>,[[<magicalcrops:essence_storage:3>,<magicalcrops:essence_storage:3>,<magicalcrops:essence_storage:3>],[<magicalcrops:essence_storage:3>,<minecraft:diamond>,<magicalcrops:essence_storage:3>],[<magicalcrops:essence_storage:3>,<magicalcrops:essence_storage:3>,<magicalcrops:essence_storage:3>]]);
+
+//master infusion stone
+recipes.addShaped(<magicalcrops:InfusionStoneMaster>,[[<magicalcrops:TaintedEssence>,<magicalcrops:essence_storage:5>,<magicalcrops:TaintedEssence>],[<magicalcrops:essence_storage:5>,Uingot,<magicalcrops:essence_storage:5>],[<magicalcrops:TaintedEssence>,<magicalcrops:essence_storage:5>,<magicalcrops:TaintedEssence>]]);
+
+
+
+//Chainmail armor
+recipes.addShaped(<minecraft:chainmail_helmet>,[[ingot,ingot,ingot],[ingot,<minecraft:leather_helmet>,ingot],[null,null,null]]);
+recipes.addShaped(<minecraft:chainmail_chestplate>,[[ingot,<minecraft:leather_chestplate>,ingot],[ingot,ingot,ingot],[ingot,ingot,ingot]]);
+recipes.addShaped(<minecraft:chainmail_leggings>,[[ingot,ingot,ingot],[ingot,<minecraft:leather_leggings>,ingot],[ingot,null,ingot]]);
+recipes.addShaped(<minecraft:chainmail_boots>,[[ingot,<minecraft:leather_boots>,ingot],[ingot,null,ingot],[null,null,null]]);
+
+
+//Gold Armor
+recipes.addShaped(<minecraft:golden_helmet>,[[Gblock,Gblock,Gblock],[Gblock,<minecraft:chainmail_helmet>,Gblock],[null,null,null]]);
+recipes.addShaped(<minecraft:golden_chestplate>,[[Gblock,<minecraft:chainmail_chestplate>,Gblock],[Gblock,Gblock,Gblock],[Gblock,Gblock,Gblock]]);
+recipes.addShaped(<minecraft:golden_leggings>,[[Gblock,Gblock,Gblock],[Gblock,<minecraft:chainmail_leggings>,Gblock],[Gblock,null,Gblock]]);
+recipes.addShaped(<minecraft:golden_boots>,[[Gblock,<minecraft:chainmail_boots>,Gblock],[Gblock,null,Gblock],[null,null,null]]);
+
+
+//Iron Armor
+recipes.addShaped(<minecraft:iron_helmet>,[[Iblock,Iblock,Iblock],[Iblock,<minecraft:golden_helmet>,Iblock],[null,null,null]]);
+recipes.addShaped(<minecraft:iron_chestplate>,[[Iblock,<minecraft:golden_chestplate>,Iblock],[Iblock,Iblock,Iblock],[Iblock,Iblock,Iblock]]);
+recipes.addShaped(<minecraft:iron_leggings>,[[Iblock,Iblock,Iblock],[Iblock,<minecraft:golden_leggings>,Iblock],[Iblock,null,Iblock]]);
+recipes.addShaped(<minecraft:iron_boots>,[[Iblock,<minecraft:golden_boots>,Iblock],[Iblock,null,Iblock],[null,null,null]]);
+
+//Diamond Armor
+recipes.addShaped(<minecraft:diamond_helmet>,[[Cblock,Cblock,Cblock],[Cblock,<minecraft:iron_helmet>,Cblock],[null,null,null]]);
+recipes.addShaped(<minecraft:diamond_chestplate>,[[Cblock,<minecraft:iron_chestplate>,Cblock],[Cblock,Cblock,Cblock],[Cblock,Cblock,Cblock]]);
+recipes.addShaped(<minecraft:diamond_leggings>,[[Cblock,Cblock,Cblock],[Cblock,<minecraft:iron_leggings>,Cblock],[Cblock,null,Cblock]]);
+recipes.addShaped(<minecraft:diamond_boots>,[[Cblock,<minecraft:iron_boots>,Cblock],[Cblock,null,Cblock],[null,null,null]]);
+
+
+//Bedrock Armor
+recipes.addShaped(<divinerpg:bedrockHelmet>,[[Bblock,Bblock,Bblock],[Bblock,<minecraft:diamond_helmet>,Bblock],[null,null,null]]);
+recipes.addShaped(<divinerpg:bedrockChestplate>,[[Bblock,<minecraft:diamond_chestplate>,Bblock],[Bblock,Bblock,Bblock],[Bblock,Bblock,Bblock]]);
+recipes.addShaped(<divinerpg:bedrockLeggings>,[[Bblock,Bblock,Bblock],[Bblock,<minecraft:diamond_leggings>,Bblock],[Bblock,null,Bblock]]);
+recipes.addShaped(<divinerpg:bedrockBoots>,[[Bblock,<minecraft:diamond_boots>,Bblock],[Bblock,null,Bblock],[null,null,null]]);
+
+//Dark Matter armor
+recipes.addShaped(<ProjectE:item.pe_dm_armor_0>,[[dblock,dblock,dblock],[dblock,<divinerpg:bedrockHelmet>,dblock],[null,null,null]]);
+recipes.addShaped(<ProjectE:item.pe_dm_armor_1>,[[dblock,<divinerpg:bedrockChestplate>,dblock],[dblock,dblock,dblock],[dblock,dblock,dblock]]);
+recipes.addShaped(<ProjectE:item.pe_dm_armor_2>,[[dblock,dblock,dblock],[dblock,<divinerpg:bedrockLeggings>,dblock],[dblock,null,dblock]]);
+recipes.addShaped(<ProjectE:item.pe_dm_armor_3>,[[dblock,<divinerpg:bedrockBoots>,dblock],[dblock,null,dblock],[null,null,null]]);
+
+
+//Red Matter Armor
+recipes.addShaped(<ProjectE:item.pe_rm_armor_0>,[[rblock,rblock,rblock],[rblock,<ProjectE:item.pe_dm_armor_0>,rblock],[null,null,null]]);
+recipes.addShaped(<ProjectE:item.pe_rm_armor_1>,[[rblock,<ProjectE:item.pe_dm_armor_1>,rblock],[rblock,rblock,rblock],[rblock,rblock,rblock]]);
+recipes.addShaped(<ProjectE:item.pe_rm_armor_2>,[[rblock,rblock,rblock],[rblock,<ProjectE:item.pe_dm_armor_2>,rblock],[rblock,null,rblock]]);
+recipes.addShaped(<ProjectE:item.pe_rm_armor_3>,[[rblock,<ProjectE:item.pe_dm_armor_3>,rblock],[rblock,null,rblock],[null,null,null]]);
+
+
+//red matter and dark matter
+recipes.addShaped(<ProjectE:item.pe_matter>,[[efuel,efuel,efuel],[efuel,<ExtraUtilities:decorativeBlock1:5>,efuel],[efuel,efuel,efuel]]);
+recipes.addShaped(<ProjectE:item.pe_matter:1>,[[dblock,dblock,dblock],[dblock,<magicalcrops:InfusionStoneMaster>,dblock],[dblock,dblock,dblock]]);
+
+
+//frunace
+//furnace.addRecipe(output,input,#.#);
+//furnace.addRecipe(,,0.0);
+//furnace.setFuel(<item index>,burn time in ticks- 200 is one item);
+//furnace.setFuel(,);
+
+furnace.addRecipe(<minecraft:diamond>,<minecraft:coal:1>,1.2);
+furnace.setFuel(<minecraft:wool>,200);

@@ -1,0 +1,56 @@
+# Configuration file
+
+compatibility {
+    # If true, automatically adds all unregistered ingots found as clonesof standard yellorium fuel
+    B:autoAddUranium=true
+}
+
+
+general {
+    B:enableComedy=true
+    B:enableMetallurgyFantasyMetalsInTurbines=true
+    D:fuelUsageMultiplier=1.5
+    I:maxReactorHeight=16
+    I:maxReactorSize=16
+    I:maxTurbineHeight=16
+    I:maxTurbineSize=16
+    D:powerProductionMultiplier=1.3
+    B:registerCreativeMultiblockParts=true
+    I:ticksPerRedstoneUpdate=20
+    D:turbineAeroDragMultiplier=1.2
+    D:turbineCoilDragMultiplier=1.7
+    D:turbineFluidPerBladeMultiplier=1.4
+    D:turbineMassDragMultiplier=1.9
+}
+
+
+recipes {
+    B:enableCyaniteFromYelloriumRecipe=true
+    B:enableReactorPowerTapRecipe=true
+    B:registerCharcoalForSmelting=true
+    B:registerCoalForSmelting=true
+    B:registerGraphiteCharcoalCraftingRecipes=false
+    B:registerGraphiteCoalCraftingRecipes=false
+    B:registerYelloriteSmeltToUranium=true
+    B:registerYelloriumAsUranium=true
+    B:requireObsidianGlass=true
+    B:requireSteelInsteadOfIron=true
+}
+
+
+worldgen {
+    B:GenerateYelloriteOre=true
+    I:MaxYelloriteClustersPerChunk=2
+    I:MaxYelloriteOrePerCluster=4
+    I:YelloriteDimensionBlacklist <
+     >
+    I:YelloriteMaxY=16
+    I:dimensionWhitelist <
+     >
+    B:enableWorldGen=true
+    B:enableWorldGenInNegativeDims=false
+    B:enableWorldRegeneration=false
+    I:userWorldGenVersion=0
+}
+
+

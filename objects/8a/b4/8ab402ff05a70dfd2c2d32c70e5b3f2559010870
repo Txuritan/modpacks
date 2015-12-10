@@ -1,0 +1,12 @@
+# Configuration file
+
+items {
+    B:metallurgyCore.oreFinder=false
+}
+
+
+world_regen {
+    B:regenOres=false
+}
+
+

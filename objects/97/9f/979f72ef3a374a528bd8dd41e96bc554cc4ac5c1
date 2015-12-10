@@ -1,0 +1,610 @@
+# Configuration file
+
+####################
+# ashenhunter
+####################
+
+ashenhunter {
+    B:canSpawn=true
+    I:frequency=2
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=12
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=3
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# eagleray
+####################
+
+eagleray {
+    S:biomegroups <EAGLERAY_DEFAULT>
+    B:canSpawn=true
+    I:frequency=6
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=WATERCREATURE
+}
+
+
+####################
+# easterislandhead
+####################
+
+easterislandhead {
+    S:biomegroups <EASTERISLANDHEAD_DEFAULT>
+    B:canSpawn=true
+    I:frequency=10
+    I:maxChunk=1
+    I:maxLightlevel=-1
+    I:maxSpawn=1
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# failgull
+####################
+
+failgull {
+    S:biomegroups <FAILGULL_DEFAULT>
+    B:canSpawn=false
+    I:frequency=30
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=15
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=5
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=UNDEFINED
+}
+
+
+####################
+# iguana
+####################
+
+iguana {
+    S:biomegroups <IGUANA_DEFAULT>
+    B:canSpawn=true
+    I:frequency=20
+    I:maxChunk=6
+    I:maxLightlevel=-1
+    I:maxSpawn=1
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=CREATURE
+}
+
+
+####################
+# koafisher
+####################
+
+koafisher {
+    S:biomegroups <KOAFISHER_DEFAULT>
+    B:canSpawn=true
+    I:frequency=8
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=2
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# koahunter
+####################
+
+koahunter {
+    S:biomegroups <KOAHUNTER_DEFAULT>
+    B:canSpawn=true
+    I:frequency=8
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=2
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# koashaman
+####################
+
+koashaman {
+    S:biomegroups <KOASHAMAN_DEFAULT>
+    B:canSpawn=true
+    I:frequency=8
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=2
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# koatrader
+####################
+
+koatrader {
+    S:biomegroups <KOATRADER_DEFAULT>
+    B:canSpawn=true
+    I:frequency=8
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=2
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# marlin
+####################
+
+marlin {
+    S:biomegroups <MARLIN_DEFAULT>
+    B:canSpawn=true
+    I:frequency=10
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=WATERCREATURE
+}
+
+
+####################
+# mow
+####################
+
+mow {
+    S:biomegroups <MOW_DEFAULT>
+    B:canSpawn=true
+    I:frequency=4
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=2
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=WATERCREATURE
+}
+
+
+####################
+# seahorse
+####################
+
+seahorse {
+    S:biomegroups <SEAHORSE_DEFAULT>
+    B:canSpawn=true
+    I:frequency=6
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=WATERCREATURE
+}
+
+
+####################
+# seaturtle
+####################
+
+seaturtle {
+    S:biomegroups <SEATURTLE_DEFAULT>
+    B:canSpawn=false
+    I:frequency=6
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=UNDEFINED
+}
+
+
+####################
+# seaturtleegg
+####################
+
+seaturtleegg {
+    S:biomegroups <SEATURTLEEGG_DEFAULT>
+    B:canSpawn=false
+    I:frequency=8
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=2
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=UNDEFINED
+}
+
+
+####################
+# seaurchin
+####################
+
+seaurchin {
+    S:biomegroups <SEAURCHIN_DEFAULT>
+    B:canSpawn=true
+    I:frequency=4
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=4
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=WATERCREATURE
+}
+
+
+####################
+# seaurchinegg
+####################
+
+seaurchinegg {
+    S:biomegroups <SEAURCHINEGG_DEFAULT>
+    B:canSpawn=false
+    I:frequency=8
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=2
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=UNDEFINED
+}
+
+
+####################
+# spideradult
+####################
+
+spideradult {
+    S:biomegroups <SPIDERADULT_DEFAULT>
+    B:canSpawn=true
+    I:frequency=50
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# spiderchild
+####################
+
+spiderchild {
+    S:biomegroups <SPIDERCHILD_DEFAULT>
+    B:canSpawn=true
+    I:frequency=8
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=2
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# spideregg
+####################
+
+spideregg {
+    S:biomegroups <SPIDEREGG_DEFAULT>
+    B:canSpawn=true
+    I:frequency=8
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=2
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# starfish
+####################
+
+starfish {
+    S:biomegroups <STARFISH_DEFAULT>
+    B:canSpawn=true
+    I:frequency=4
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=4
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=WATERCREATURE
+}
+
+
+####################
+# starfishegg
+####################
+
+starfishegg {
+    S:biomegroups <STARFISHEGG_DEFAULT>
+    B:canSpawn=false
+    I:frequency=8
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=2
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=UNDEFINED
+}
+
+
+####################
+# treefrogblue
+####################
+
+treefrogblue {
+    S:biomegroups <TREEFROGBLUE_DEFAULT>
+    B:canSpawn=true
+    I:frequency=25
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=2
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=CREATURE
+}
+
+
+####################
+# treefroggreen
+####################
+
+treefroggreen {
+    S:biomegroups <TREEFROGGREEN_DEFAULT>
+    B:canSpawn=true
+    I:frequency=25
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=2
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=CREATURE
+}
+
+
+####################
+# treefrogred
+####################
+
+treefrogred {
+    S:biomegroups <TREEFROGRED_DEFAULT>
+    B:canSpawn=true
+    I:frequency=25
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=2
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=CREATURE
+}
+
+
+####################
+# treefrogyellow
+####################
+
+treefrogyellow {
+    S:biomegroups <TREEFROGYELLOW_DEFAULT>
+    B:canSpawn=true
+    I:frequency=25
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=2
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=CREATURE
+}
+
+
+####################
+# tropicalfish
+####################
+
+tropicalfish {
+    S:biomegroups <TROPICALFISH_DEFAULT>
+    B:canSpawn=true
+    I:frequency=10
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=12
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=WATERCREATURE
+}
+
+
+####################
+# tropicreeper
+####################
+
+tropicreeper {
+    S:biomegroups <TROPICREEPER_DEFAULT>
+    B:canSpawn=true
+    I:frequency=2
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=2
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# tropiskeleton
+####################
+
+tropiskeleton {
+    S:biomegroups <TROPISKELETON_DEFAULT>
+    B:canSpawn=true
+    I:frequency=25
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=8
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+
+####################
+# vmonkey
+####################
+
+vmonkey {
+    S:biomegroups <VMONKEY_DEFAULT>
+    B:canSpawn=true
+    I:frequency=20
+    I:maxChunk=4
+    I:maxLightlevel=-1
+    I:maxSpawn=3
+    I:maxSpawnHeight=256
+    I:minLightlevel=-1
+    I:minSpawn=1
+    I:minSpawnHeight=0
+    S:opaqueBlock=all
+    S:spawnBlockBlacklist <>
+    S:type=MONSTER
+}
+
+

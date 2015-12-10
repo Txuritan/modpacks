@@ -1,0 +1,72 @@
+//values
+//val  = <>;
+val wool = <minecraft:wool>;
+val slate1 = <AWWayofTime:blankSlate>;
+//val slate2 = <AWWayofTime:>;
+//val slate3 = <AWWayofTime:>;
+//val slate4 = <AWWayofTime:>;
+//val slate5 = <AWWayofTime:>;
+val stone = <minecraft:stone>;
+val coal = <minecraft:coal>;
+
+//Blood Magic
+
+    //Altar Recipies
+//mods.(modName).(whereTheRecipeTakesPlace).(addOrRemove)(whatIsMade, materialsUsed, atlar teir, LP used, consume, drainRate); 
+mods.bloodmagic.Altar.addRecipe(wool, <minecraft:string>, 2, 200, 20, 20);
+mods.bloodmagic.Altar.removeRecipe(slate1);
+//mods.bloodmagic.Altar.removeRecipe();
+//mods.bloodmagic.Altar.removeRecipe();
+//mods.bloodmagic.Altar.removeRecipe();
+//mods.bloodmagic.Altar.removeRecipe();
+
+    //Alchemical Set
+//mods.bloodmagic.Alchemy.(add/remove)Recipe(output, [ingredients], orbTier, LP);
+//mods.bloodmagic.Alchemy.addRecipe(slate, [stone,stone], 1, 1000);
+
+    //Ritual of Binding recipies 
+//mods.bloodmagic.Binding.(add/remove)Recipe(output,ingredient); 
+//mods.bloodmagic.Binding.addRecipe(slate,stone);
+
+
+
+
+
+
+
+
+//Tconstruct
+
+//smeltery
+//mods.tconstruct.Smeltery.addMelting(input,liquid + amount, lava consumed ,what to look like in the smeltery);
+//mods.tconstruct.Smeltery.addMelting(,000,000,);
+//mods.tconstruct.Smeltery.addMelting(coal ,liquidCoal * 100, 100, <minecraft:coal_block>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_helmet>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_chestplate>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_leggings>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:chainmail_boots>);
+
+
+
+//casting recipes
+//mods.tconstruct.Casting.add(Table/Basin)Recipe(what to make ,liquid to pour + how much to pour,what to pour onto,whether to consume item(true/false),time of conversion in ticks);
+//mods.tconstruct.Casting.addTableRecipe(<>,<liquid:>*000,,,000);
+//mods.tconstruct.Casting.addBasinRecipe(<minecraft:coal_block>,<liquid:coal>*800,stone,true,000);
+
+
+
+
+//alloy recipes
+//mods.tconstruct.Smeltery.addAlloy(alloy to make,[ingredients to make alloy]);
+//mods.tconstruct.Smeltery.addAlloy(liquid*000,[]);
+//mods.tconstruct.Smeltery.addAlloy(liquidIron*200,[lava*100,liquidCoal*100]);
+
+
+
+//drying rack
+//mods.tconstruct.Drying.addRecipe(input,output,time required time in ticks);
+//mods.tconstruct.Drying.addRecipe(,,);
+//mods.tconstruct.Drying.addRecipe(<minecraft:string>,<minecraft:wool>, 20);
+
+
+

@@ -1,0 +1,19 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "maerie-1.7.10-0.1.6-0.0",
+      "name" : "maerie-1.7.10-0.1.6-0.0",
+      "version" : "1.7.10-0.1.6-0.0",
+      "location" : "maerie-1.7.10-0.1.6-0.0.json",
+      "priority" : 0
+    },
+    {
+      "title" : "rpg-survival-1.7.10-1.1.4.5",
+      "name" : "rpg-survival-1.7.10-1.1.4.5",
+      "version" : "1.7.10-1.1.4.5",
+      "location" : "rpg-survival-1.7.10-1.1.4.5.json",
+      "priority" : 0
+    }
+  ]
+}
