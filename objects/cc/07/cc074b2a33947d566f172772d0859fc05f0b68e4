@@ -1,0 +1,21 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:WaterBottleId=4002
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:HamsterBallId=4000
+    I:HamsterFoodId=4001
+}
+
+

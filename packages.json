@@ -14,6 +14,13 @@
       "version" : "1.7.10-1.1.4.5",
       "location" : "rpg-survival-1.7.10-1.1.4.5.json",
       "priority" : 0
+    },
+    {
+      "title" : "farlands-for-ever",
+      "name" : "farlands-for-ever",
+      "version" : "2015-12-19-23-19-07",
+      "location" : "farlands-for-ever.json",
+      "priority" : 0
     }
   ]
 }
